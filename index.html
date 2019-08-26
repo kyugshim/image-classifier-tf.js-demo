@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/cirrus-ui">
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet@2.0.2"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+    <title>image classifier TF.js demo</title>
+  </head>
+  <body>
+    <h1>Image Classifier TF.js demo</h1>
+    <div id="console"></div>
+    <!-- Add an image that we will use to test -->
+    <video autoplay playsinline muted id="webcam" width="600" height="600"></video>
+
+
+    <button id="class-a">Add A</button>
+    <p>
+    <button id="class-b">Add B</button>
+  </p>
+    <button id="class-c">Add C</button>
+
+    <!-- Load index.js after the content of the page-->
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
